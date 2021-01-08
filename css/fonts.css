@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'GothamRounded-Medium';
+    src: url('../fonts/GothamRounded-Medium/GothamRounded-Medium.eot');
+    src: url('../fonts/GothamRounded-Medium/GothamRounded-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamRounded-Medium/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg'),
+        url('../fonts/GothamRounded-Medium/GothamRounded-Medium.ttf') format('truetype'),
+        url('../fonts/GothamRounded-Medium/GothamRounded-Medium.woff') format('woff'),
+        url('../fonts/GothamRounded-Medium/GothamRounded-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamRounded-Book';
+  src: url('../fonts/GothamRounded-Book/GothamRounded-Book.eot');
+  src: url('../fonts/GothamRounded-Book/GothamRounded-Book.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GothamRounded-Book/GothamRounded-Book.svg#GothamRounded-Book') format('svg'),
+       url('../fonts/GothamRounded-Book/GothamRounded-Book.ttf') format('truetype'),
+       url('../fonts/GothamRounded-Book/GothamRounded-Book.woff') format('woff'),
+       url('../fonts/GothamRounded-Book/GothamRounded-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamRounded-BookItalic';
+  src: url('../fonts/GothamRounded-BookItalic/GothamRounded-BookItalic.eot');
+  src: url('../fonts/GothamRounded-BookItalic/GothamRounded-BookItalic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GothamRounded-BookItalic/GothamRounded-BookItalic.svg#GothamRounded-BookItalic') format('svg'),
+       url('../fonts/GothamRounded-BookItalic/GothamRounded-BookItalic.ttf') format('truetype'),
+       url('../fonts/GothamRounded-BookItalic/GothamRounded-BookItalic.woff') format('woff'),
+       url('../fonts/GothamRounded-BookItalic/GothamRounded-BookItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('../fonts/Helvetica-Bold/Helvetica-Bold.eot');
+  src: url('../fonts/Helvetica-Bold/Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Helvetica-Bold/Helvetica-Bold.svg#Helvetica-Bold') format('svg'),
+       url('../fonts/Helvetica-Bold/Helvetica-Bold.ttf') format('truetype'),
+       url('../fonts/Helvetica-Bold/Helvetica-Bold.woff') format('woff'),
+       url('../fonts/Helvetica-Bold/Helvetica-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Helvetica-Regular';
+  src: url('../fonts/Helvetica-Regular/Helvetica-Regular.eot');
+  src: url('../fonts/Helvetica-Regular/Helvetica-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Helvetica-Regular/Helvetica-Regular.svg#Helvetica-Regular') format('svg'),
+       url('../fonts/Helvetica-Regular/Helvetica-Regular.ttf') format('truetype'),
+       url('../fonts/Helvetica-Regular/Helvetica-Regular.woff') format('woff'),
+       url('../fonts/Helvetica-Regular/Helvetica-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

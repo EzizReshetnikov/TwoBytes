@@ -1,0 +1,125 @@
+@media screen and (max-width: 960px) {
+
+
+/* H A M B U R G E R  M E N U start*/
+
+	.nav{
+		display: block;
+	}
+	#menu-toggle{
+		display: none;
+	}
+	.menu{
+		display: none;
+		text-align: center;
+		line-height: 30px;
+		padding-top: 70px;
+	}
+	.hamburger-menu{
+		position: relative;
+	}
+	.hamburger-menu__menu-btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		background: #fff;
+		border-radius: 50%;
+		top: -44px;
+		right: 20px;
+		cursor: pointer;
+		opacity: 0.8;
+		box-shadow: 1px 1px 5px 0 #4a4646, -1px -1px 5px 0 #4a4646;
+	}
+	.hamburger-menu__hamburger,
+	.hamburger-menu__hamburger:before,
+	.hamburger-menu__hamburger:after{
+		display: block;
+		position: absolute;
+		width: 25px;
+		height: 4px;
+		background: #4a4646;
+		transition: .3s;
+	}
+	.hamburger-menu__hamburger:before{
+		content: '';
+		top: -7px;
+	}
+	.hamburger-menu__hamburger:after{
+		content: '';
+		top: 7px;
+	}
+	#menu-toggle:checked ~ .menu{
+		display: flex;
+		flex-direction: column;
+	}
+	.menu__item_margin-left{
+		margin-left: 0;
+	}
+	#menu-toggle:checked ~ .hamburger-menu__menu-btn > .hamburger-menu__hamburger:before{
+		top: 0;
+	}
+	#menu-toggle:checked ~ .hamburger-menu__menu-btn > .hamburger-menu__hamburger:after{
+		top: 0;
+		transform: rotate(90deg);
+	}
+	#menu-toggle:checked ~ .hamburger-menu__menu-btn > .hamburger-menu__hamburger{
+		transform: rotate(45deg);
+	}
+/* H A M B U R G E R  M E N U end*/
+
+
+	.header{
+		position: relative;
+		padding-bottom: 183px;
+	}
+	.header__search-text{
+		text-align: center;
+		margin-top: 80px;
+	}
+	.header__search{
+		flex-direction: column;
+		align-items: center;
+	}
+	.header__submit{
+		position: absolute;
+		width: 120px;
+		bottom: 100px;
+	}
+	.header__checkbox-group-and-list-flex-container{
+		flex-direction: column;
+		width: 100%;
+	}
+	.header__checkbox-group{
+		margin-bottom: 20px;
+	}
+	.header__select{
+		min-width: 250px;
+	}
+	.footer__email{
+		text-align: center;
+	}
+	.footer__flex-container{
+		flex-direction: column;
+	}
+	.footer__social{
+		margin-top: 25px;
+	}
+
+
+}
+@media screen and (max-width: 720px){
+
+
+	.header__form,
+	.section-1__container,
+	.section-2,
+	.footer{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	
+}
